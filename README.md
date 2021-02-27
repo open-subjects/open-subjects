@@ -38,5 +38,5 @@ See [icali/README.md](./icali/README.md).
 
 Develop a CLI program that creates icals from csv files.
 
-gh-discussions: https://github.com/tbobm/open-subjects/discussions
-gh-issue-new: https://github.com/tbobm/open-subjects/issues/new
+[gh-discussions]: https://github.com/tbobm/open-subjects/discussions
+[gh-issue-new]: https://github.com/tbobm/open-subjects/issues/new
