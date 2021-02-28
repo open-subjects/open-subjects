@@ -1,0 +1,23 @@
+---
+name: 'open-subjects'
+
+'on':
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  linter:
+    name: "open-subjects:linter"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the codebase.
+        uses: actions/checkout@v2
+      - name: Super-Linter
+        uses: github/super-linter@v3.14.0
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
