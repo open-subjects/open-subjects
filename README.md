@@ -1,5 +1,7 @@
 # open-subjects
 
+[![Subject lint](https://github.com/tbobm/open-subjects/workflows/open-subjects/badge.svg)](https://github.com/tbobm/open-subjects/workflows/open-subjects/)
+
 Publicly available subject ideas to sharpen your development skills.
 
 This repository is used to aggregate exercise ideas and the corresponding submissions.

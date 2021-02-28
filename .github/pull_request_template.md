@@ -1,4 +1,4 @@
-### checklist
+# checklist
 
 - [ ] I have created my repository
 - [ ] I have added a link to my submission in the corresponding field
