@@ -9,6 +9,7 @@ This repository is used to aggregate exercise ideas and the corresponding submis
 ## Submit your answer
 
 If you want to review your code, you do the following:
+
 - Create a public repository to push your code
 - Fork this repository
 - Add your username and a link to your repository in the "submissions" part of the README

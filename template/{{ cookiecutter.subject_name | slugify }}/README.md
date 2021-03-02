@@ -4,18 +4,12 @@
 
 ## Input
 
-
-
 ## Output
 
-
 ## Data
-
 
 ## Additional targets
 
 - None
 
 ## Validations
-
-

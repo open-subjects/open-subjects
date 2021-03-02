@@ -32,6 +32,7 @@ The output file **must** match the [RFC5545][rfc-5545]
 ## Data
 
 exemple file:
+
 ```csv
 title,date,description
 event A, 2021-02-28, do some stuff
@@ -58,4 +59,3 @@ event C, 2021-02-27, nice event
 [rfc-5545]: https://tools.ietf.org/html/rfc5545
 
 ## Submissions
-
