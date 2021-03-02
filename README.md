@@ -32,6 +32,23 @@ Found something weird / unclear / wrong / impossible to do in a subject ?
 
 Report it through [an issue][gh-issue-new]
 
+## Contributing
+
+Every contribution is welcomed !
+
+Feel free to make use the ["subject" pull request template](./.github/PULL_REQUEST_TEMPLATE/subject.md).
+
+A [cookiecutter][cookiecutter] template is available in the [`./template`](./template/) directory.
+
+```console
+$ cookiecutter template/
+subject_name [Subject name]: my subject
+$ ls
+my-subject
+```
+
+_cookiecutter can be installed using `pip install cookiecutter`_
+
 ## Subjects
 
 ### Icali
@@ -40,5 +57,6 @@ See [icali/README.md](./icali/README.md).
 
 Develop a CLI program that creates icals from csv files.
 
+[cookiecutter]: https://cookiecutter.readthedocs.io/
 [gh-discussions]: https://github.com/tbobm/open-subjects/discussions
 [gh-issue-new]: https://github.com/tbobm/open-subjects/issues/new

@@ -1,0 +1,4 @@
+{
+    "subject_name": "Subject name",
+    "_extensions": ["cookiecutter.extensions.SlugifyExtension"]
+}
