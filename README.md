@@ -20,7 +20,7 @@ If you want to review your code, you do the following:
 - [tbobm](https://github.com/tbobm/icali)
 ```
 
-See the [pull request template](./.github/pull_request_template.md)
+See the ["review" pull request template](./.github/PULL_REQUEST_TEMPLATE/review.md)
 
 ## Questions
 
