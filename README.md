@@ -58,6 +58,12 @@ See [icali/README.md](./icali/README.md).
 
 Develop a CLI program that creates icals from csv files.
 
+### Giscord
+
+See [giscord/README.md](./giscord/README.md).
+
+Create a Github Discord Bot.
+
 [cookiecutter]: https://cookiecutter.readthedocs.io/
 [gh-discussions]: https://github.com/tbobm/open-subjects/discussions
 [gh-issue-new]: https://github.com/tbobm/open-subjects/issues/new
