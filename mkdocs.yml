@@ -1,0 +1,44 @@
+---
+site_name: Open Subjects
+site_description: Website for open-subjects
+site_author: tbobm
+site_url: https://subjects.tbobm.tech/
+
+repo_name: open-subjects/open-subjects
+repo_url: https://github.com/open-subjects/open-subjects
+
+docs_dir: subjects
+
+theme:
+  name: 'material'
+  # logo: "images/open-subjects.svg"
+  palette:
+    primary: 'cyan'
+    accent: 'blue grey'
+  features:
+    - tabs
+    - instant
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - markdown_include.include
+  - admonition
+  - footnotes
+  - meta
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Overview: index.md
+  - Subjects:
+      - icali: icali/README.md
+      - giscord: giscord/README.md
