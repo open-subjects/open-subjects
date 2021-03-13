@@ -2,6 +2,10 @@
 
 **Goal**: Create Bot to report github repository activity in a Discord channel.
 
+See [Discord's Developer Portal][dev-portal]
+
+[dev-portal]: https://discord.com/developers/docs/intro
+
 ## Features
 
 Interactions **must** be done through `bot-commands`. You are free to chose
