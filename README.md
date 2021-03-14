@@ -52,6 +52,12 @@ _cookiecutter can be installed using `pip install cookiecutter`_
 
 ## Subjects
 
+### hello-world
+
+See [hello-world/README.md](./subjects/hello-world/README.md).
+
+Try out the validation process by creating a greeting program.
+
 ### Icali
 
 See [icali/README.md](./subjects/icali/README.md).
