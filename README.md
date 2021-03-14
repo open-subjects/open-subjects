@@ -54,13 +54,13 @@ _cookiecutter can be installed using `pip install cookiecutter`_
 
 ### Icali
 
-See [icali/README.md](./icali/README.md).
+See [icali/README.md](./subjects/icali/README.md).
 
 Develop a CLI program that creates icals from csv files.
 
 ### Giscord
 
-See [giscord/README.md](./giscord/README.md).
+See [giscord/README.md](./subjects/giscord/README.md).
 
 Create a Github Discord Bot.
 
