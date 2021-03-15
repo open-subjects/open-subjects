@@ -12,13 +12,13 @@ If you want to review your code, you do the following:
 
 - Create a public repository to push your code
 - Fork this repository
-- Add your username and a link to your repository in the "submissions" part of the README
+- Add a link to your repository in the validation list
 - Create a Pull Request
 
-```markdown
-## Submissions
+```text
+## Validations
 
-- [tbobm](https://github.com/tbobm/icali)
+- @tbobm/open-subjects-hello-world
 ```
 
 See the ["review" pull request template](./.github/PULL_REQUEST_TEMPLATE/review.md)
