@@ -1,0 +1,12 @@
+---
+# Example markdownlint YAML configuration with all properties set to their default value
+
+# Default state for all rules
+default: true
+
+# MD038/no-space-in-code - Spaces inside code span elements
+# NOTE: Disabled due to pymdown-extensions.details
+MD038: false
+
+# MD046/code-block-style - Code block style
+MD046: false
