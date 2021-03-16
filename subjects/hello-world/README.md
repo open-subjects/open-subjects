@@ -1,8 +1,8 @@
 # hello-world
 
-| Complexity | Executable | Goal |
-|------|------|------|
-| Low | `greet` | Create a CLI Program that outputs a greeting.
+| Complexity | Executable |                                         Goal  |
+|------------|------------|-----------------------------------------------|
+|        Low |    `greet` | Create a CLI Program that outputs a greeting. |
 
 This subject is purely aimed to trying out the validation workflow.
 
@@ -22,6 +22,13 @@ If no person to greet is specified, `greet` the World.
 ```console
 $ greet
 Hello World.
+```
+
+If multiple words are specified, `greet` as if it was a fully qualified name.
+
+```console
+$ greet Lord Bob, leader of the Koala Squad
+Hello Lord Bob, leader of the Koala Squad.
 ```
 
 ## Additional targets
