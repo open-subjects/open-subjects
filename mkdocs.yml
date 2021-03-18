@@ -40,5 +40,6 @@ markdown_extensions:
 nav:
   - Overview: index.md
   - Subjects:
+      - hello-world: hello-world/README.md
       - icali: icali/README.md
       - giscord: giscord/README.md
