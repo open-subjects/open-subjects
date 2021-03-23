@@ -39,6 +39,8 @@ markdown_extensions:
 
 nav:
   - Overview: index.md
+  - Guidelines:
+      - Common Rules: rules.md
   - Subjects:
       - hello-world: hello-world/README.md
       - icali: icali/README.md
