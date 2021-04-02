@@ -5,42 +5,46 @@
 In order to ease reviewing validation requests, ensure you match the following
 requirements before applying for a review.
 
-??? success "Why the requirements?"
+???+ success "Why the requirements?"
 
-    These requirements 
+    The goal is to ease reviewing and offer your the occasion
+    to conform to the Open Source standards such as documentation .
 
-The repository must conform to the following:
+The repository you submit **must** conform to the following.
 
-proper documentation must be easily accessible (i.e.: README.md, mkdocs, ...)
+### Requirements
 
-- validation request must conform to the constraints defined in the subject
-  - program should be able to execute the example
-  - program should accept input given in the subject description excepted
-  if adapting the format is relevant
-  - program may output information in other format than specified in the subject
-- repository must conform to at least one (1) community linter
-- at least one (1) method of packaging must be made available
+Proper documentation **must** be easily accessible (i.e.: [README.md][github-readme],
+[mkdocs][mkdocs] or anything that is viewable and maintanable).
 
-## Detailed requirements
+???+ todo "Validation requests"
+    - program _should_ be able to execute the example(s)
+    - program _should_ accept input given in the subject description excepted
+    if adapting the format is relevant
+    - program _may_ output information in other formats than specified in the subject
 
-### Packaging
+???+ todo "Linting"
+    - Repository **must** conform to at least one community linter ([pylint][pylint],
+    [tslint][tslint], `go fmt`).
+    - You **must** include information regarding the linting convention you use.
+    - You _may_ tweak configuration in certain parts (line length up to `110 chars`),
+    but try to be as close as possible to the community guidelines for your language !
 
-Code or application **must** be packaged and easily installable.
+???+ todo "Packaging"
+    - At least one method of packaging **must** be made available.
+    - You should use your language packaging method (`setup.py`, `npm`) and may
+    use [Docker][docker] to explore the concept of containers !
+    - Creating [OCI][oci] enables you to distribute your application easily.
 
-Any packaging method relevant to the chosen ecosystem can be fit this requirement.
+???+ todo "Documentation"
+    - Describe the program usage
+    - Describe installation process (generate executable or install system-wide)
+    - You _may_ provide additional examples
+    - Listing additional features is highly encouraged !
 
-Most common might be Docker
-
-### Linting
-
-- must be documented
-- should be a common linter
-- may tweak configuration in certain parts (line length up to 110 chars)
-
-### Documentation
-
-- Describe program
-- Describe installation process (generate executable or install in system)
-- Describe usage
-- May provide examples
-- Should list additional features
+[docker]: https://www.docker.com/docker
+[github-readme]: https://guides.github.com/features/wikis/
+[mkdocs]: https://www.mkdocs.org/
+[pylint]: https://pylint.org/
+[tslint]: https://palantir.github.io/tslint/
+[oci]: https://opencontainers.org/
