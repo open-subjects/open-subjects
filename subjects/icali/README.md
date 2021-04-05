@@ -59,3 +59,5 @@ event C, 2021-02-27, nice event
 [rfc-5545]: https://tools.ietf.org/html/rfc5545
 
 ## Submissions
+
+- [@nicolasdecorbez](https://github.com/nicolasdecorbez/icali)
