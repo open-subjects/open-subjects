@@ -60,4 +60,4 @@ event C, 2021-02-27, nice event
 
 ## Submissions
 
-- [@nicolasdecorbez](https://github.com/nicolasdecorbez/icali)
+- [@nicolasdecorbez/icali](https://github.com/nicolasdecorbez/icali)
