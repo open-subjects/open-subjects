@@ -25,7 +25,7 @@ Proper documentation **must** be easily accessible (i.e.: [README.md][github-rea
 
 ???+ todo "Linting"
     - Repository **must** conform to at least one community linter ([pylint][pylint],
-    [tslint][tslint], `go fmt`).
+    [tslint][tslint], [`go fmt`][gofmt]).
     - You **must** include information regarding the linting convention you use.
     - You _may_ tweak configuration in certain parts (line length up to `110 chars`),
     but try to be as close as possible to the community guidelines for your language !
@@ -47,4 +47,5 @@ Proper documentation **must** be easily accessible (i.e.: [README.md][github-rea
 [mkdocs]: https://www.mkdocs.org/
 [pylint]: https://pylint.org/
 [tslint]: https://palantir.github.io/tslint/
+[gofmt]: https://blog.golang.org/gofmt
 [oci]: https://opencontainers.org/
