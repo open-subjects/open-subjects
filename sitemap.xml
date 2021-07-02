@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://subjects.tbobm.tech/</loc>
+         <lastmod>2021-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://subjects.tbobm.tech/good-practices/</loc>
+         <lastmod>2021-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://subjects.tbobm.tech/rules/</loc>
+         <lastmod>2021-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://subjects.tbobm.tech/giscord/</loc>
+         <lastmod>2021-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://subjects.tbobm.tech/hello-world/</loc>
+         <lastmod>2021-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://subjects.tbobm.tech/icali/</loc>
+         <lastmod>2021-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
